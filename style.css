@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  cursor: none;
 }
 
 *, *:before, *:after {
@@ -26,10 +27,36 @@ img {
 
 /*   ----------------------   */
 
+body{
+  background-color: black;
+}
+
 #defaultCanvas0{
   display: block;
   position: fixed;
   top:0;
   left:0;
   z-index: -1;
+}
+
+#text-container{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  margin-left: 28vw;
+  margin-right: 28vw;
+  margin-top: 500px;
+  margin-bottom: 200px;
+  font-size: 30px;
+  color: #1A1A1A;
+  /* color: white; */
+}
+
+.text{
+  margin-bottom: 30px;
+}
+
+.paragraph{
+  margin-top: 100px;
 }
