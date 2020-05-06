@@ -170,6 +170,10 @@ function decirteAnim() {
   fill(255, 255, 255, 230);
   ellipse(mouseX, mouseY, (sin(frameCount*0.02)+15)*15);
 
+  stroke(0, 0, 20);
+  strokeWeight(90);
+  line(0, mouseY, windowWidth, mouseY);
+  noStroke();
 }
 
 function mentirteAnim() {
