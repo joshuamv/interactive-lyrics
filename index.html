@@ -11,22 +11,28 @@
   </head>
 
   <body>
+
+    <div id=title-container>
+    <div class="title">Eres</div>
+    <div class="subtitle">Café Tacvba</div>
+    </div>
+
     <div id=text-container>
-    <div id="eres-1" class="text paragraph"> Eres </div>
-    <div onmouseover="test()" class="text"> Lo que más quiero en este mundo, eso eres </div>
-    <div class="text"> Mi pensamiento más profundo también eres </div>
-    <div class="text"> Tan sólo dime lo que hago, aquí me tienes </div>
+    <div class="text paragraph"><span class="word">Eres</span></div>
+    <div class="text"> Lo que más quiero en este <span onmouseover="setParNumber(2, 0, 0)" onmouseout="setParNumber(0, 0, 0)" class="word">mundo</span>, eso eres </div>
+    <div class="text"> Mi pensamiento más <span onmouseover="setParNumber(3, 0, 0)" onmouseout="setParNumber(0, 0, 0)" class="word">profundo</span> también eres </div>
+    <div class="text"> Tan sólo dime lo que hago, aquí <span onmouseover="setParNumber(4, 0, 0)" onmouseout="setParNumber(0, 0, 0)" class="word">me tienes</span> </div>
 
-    <div class="text paragraph"> Eres </div>
-    <div class="text"> Cuando despierto, lo primero, eso eres </div>
-    <div class="text"> Lo que a mi vida le hace falta si no vienes </div>
-    <div class="text"> Lo único precioso que en mi mente habita hoy </div>
+    <div class="text paragraph"> <span onmouseout="setParNumber(0, 0, 0)" class="word">Eres</span> </div>
+    <div class="text"> Cuando <span onmouseover="setParNumber(0, 2, 0)" onmouseout="setParNumber(0, 0, 0)" class="word">despierto</span>, lo primero, eso eres </div>
+    <div class="text"> Lo que a mi vida le hace <span onmouseover="setParNumber(0, 3, 0)" onmouseout="setParNumber(0, 0, 0)" class="word">falta</span> si no vienes </div>
+    <div class="text"> Lo único precioso que en <span onmouseover="setParNumber(0, 4, 0)" onmouseout="setParNumber(0, 0, 0)" class="word">mi mente</span> habita hoy </div>
 
-    <div class="text paragraph"> Qué más puedo decirte </div>
-    <div class="text"> Tal vez puedo mentirte sin razón </div>
-    <div class="text"> Pero lo que hoy siento </div>
-    <div class="text"> Es que sin ti estoy muerto, pues eres </div>
-    <div class="text"> Lo que más quiero en este mundo, eso eres </div>
+    <div class="text paragraph"> Qué más puedo <span onmouseover="setParNumber(0, 0, 1)" onmouseout="setParNumber(0, 0, 0)" class="word">decirte</span></div>
+    <div class="text"> Tal vez puedo <span onmouseover="setParNumber(0, 0, 2)" onmouseout="setParNumber(0, 0, 0)" class="word">mentirte</span> sin razón </div>
+    <div class="text"> Pero lo que hoy <span onmouseover="setParNumber(0, 0, 3)" onmouseout="setParNumber(0, 0, 0)" class="word">siento</span></div>
+    <div class="text"> Es que sin ti estoy <span onmouseover="setParNumber(0, 0, 4)" onmouseout="setParNumber(0, 0, 0)" class="word">muerto</span>, pues eres </div>
+    <div class="text"> Lo que más <span id="quiero" onmouseover="setParNumber(0, 0, 5)" onmouseout="setParNumber(0, 0, 6)" class="word">quiero</span> en este mundo, eso eres.</div>
 
     </div>
   </body>
