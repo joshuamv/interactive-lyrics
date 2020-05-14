@@ -108,8 +108,28 @@ body{
   color: #F4BAC2;
 }
 
+.warning-bar{
+  display: none;
+}
+
 
 @media screen and (max-width: 900px) and (min-width: 0px) {
+
+  .warning-bar{
+    display: flex;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    top: 0px;
+    justify-content: center;
+    background-color: #19192B;
+    color: #CACBD0;
+    font-family: sans-serif;
+    padding: 20px;
+    font-size: 13px;
+    z-index: 100;
+  }
+
   #text-container{
     margin-left: 10vw;
     margin-right: 10vw;
